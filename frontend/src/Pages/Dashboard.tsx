@@ -118,7 +118,7 @@ const Dashboard: React.FC = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post("http://localhost:5000/api/auth/logout", {}, { withCredentials: true });
+      await axios.post("https://sustainanility-dashboard.onrender.com/api/auth/logout", {}, { withCredentials: true });
       window.location.reload();
     } catch (error) {
       console.error("Logout failed:", error);

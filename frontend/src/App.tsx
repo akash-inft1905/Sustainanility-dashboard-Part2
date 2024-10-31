@@ -17,7 +17,7 @@ const App: React.FC = () => {
     // Check login status by making a request to the server
     const checkLoginStatus = async () => {
       try {
-        await axios.get("http://localhost:5000/api/auth/check-session", {
+        await axios.get("https://sustainanility-dashboard.onrender.com/api/auth/check-session", {
           withCredentials: true, // Include cookies in the request
         });
         setIsLoggedIn(true);

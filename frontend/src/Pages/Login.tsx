@@ -22,7 +22,7 @@ const Login: React.FC = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://sustainanility-dashboard.onrender.com/api/auth/login",
         { email: loginState.email, password: loginState.password },
         { withCredentials: true }
       );
