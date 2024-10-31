@@ -4,7 +4,7 @@ Welcome to the **Oren Sustainability Dashboard**, a comprehensive platform for t
 
 ### Deployed URLs
 
-- **URL**: [https://sustainability-dashboard.onrender.com](https://sustainability-dashboard.onrender.com)
+- **URL**: [https://sustainanility-dashboard.onrender.com](https://sustainanility-dashboard.onrender.com)
 
 ---
 
