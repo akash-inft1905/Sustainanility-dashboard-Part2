@@ -101,7 +101,7 @@ The **Export JSON** feature allows users to download the entire sustainability p
 To ensure the platform is ready for use after setup, a pre-populate the database with an initial admin account. This allows for immediate access to the dashboard after the first-time deployment without manually entering credentials.
 
 - **Admin Credentials:**
-  - **Email:** `admin1@example.com`,`admin2@example.com`,`admin3@example.com`,`admin4@example.com`,`admin5@example.com`
+  - **Email:** `admin1@gmail.com`,`admin2@gmail.com`,`admin3@gmail.com`,`admin4@gmail.com`,`admin5@gmail.com`
   - **Password:** `password123`  (`Same For all`)
 
 
