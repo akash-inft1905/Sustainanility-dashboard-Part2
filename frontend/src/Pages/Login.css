@@ -1,0 +1,135 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Login Page Container */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .login-content {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+/* Welcome Text Area */
+.welcome-text {
+  flex: 1;
+  text-align: center;
+}
+
+.welcome-text h1 {
+  font-size: 2rem;
+  color: #1a73e8;
+  margin-bottom: 16px;
+}
+
+.welcome-text p {
+  color: #4a5568;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.mission-text {
+  color: #718096;
+  font-style: italic;
+  margin-top: 12px;
+}
+
+@media (min-width: 768px) {
+  .welcome-text {
+    text-align: left;
+  }
+
+  .welcome-text h1 {
+    font-size: 2.4rem;
+  }
+}
+
+/* Login Form Area */
+.login-form {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.login-form h2 {
+  font-size: 1.8rem;
+  color: #1a73e8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #e53e3e;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  color: #4a5568;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0c63db;
+}

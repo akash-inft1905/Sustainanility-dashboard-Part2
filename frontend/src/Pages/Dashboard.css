@@ -1,0 +1,103 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9fafc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #1a73e8;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .dashboard-content {
+    flex-direction: row;
+  }
+}
+
+.dashboard-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #3b3b3b;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.primary-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+  background-color: #0c63db;
+}
+
+.chart-container {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.secondary-button {
+  flex: 1;
+  padding: 10px;
+  background-color: #e2e8f0;
+  color: #1a73e8;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.secondary-button:hover {
+  background-color: #d1d9e6;
+}
+
+.logout {
+  color: #d9534f;
+}
